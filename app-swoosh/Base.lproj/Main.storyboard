@@ -154,6 +154,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="GcH-fu-Lo8" eventType="touchUpInside" id="Z00-Uf-k4F"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="ZOb-8L-DxI">
                                 <rect key="frame" x="16" y="40" width="343" height="66"/>
@@ -203,6 +206,9 @@
                             <constraint firstItem="gB5-yt-ZMW" firstAttribute="leading" secondItem="RTE-Ek-By1" secondAttribute="leadingMargin" id="wtu-vb-2f0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="O9k-Xg-mPR" kind="show" identifier="skillVCSegue" id="MUs-rv-oWR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z38-uY-c2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="KjP-Dk-c3Z" userLabel="Exit" sceneMemberID="exit"/>
@@ -302,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wVg-ov-UAS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1535" y="133"/>
+            <point key="canvasLocation" x="1620" y="133"/>
         </scene>
     </scenes>
     <resources>
